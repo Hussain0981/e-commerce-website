@@ -47,6 +47,9 @@
                 </div>
             </div>
             <div v-if="showCart">
+                <div class="z-40 bg-black/50 h-screen w-full fixed inset-0">
+
+                </div>
                 <CartList class="min-h-screen w-full md:w-1/2 fixed bg-white z-50 top-0 right-0 " />
             </div>
         </div>
